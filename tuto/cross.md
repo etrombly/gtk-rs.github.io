@@ -56,7 +56,7 @@ After that you can zip up the contents of the /wherever/release folder and distr
 
 ### Icon and version info
 
-These steps are for adding an icon to your program. First make a rc file showing where the icon is and the version info. Change "path/to/my.ico" to your icon". The BLOCK "040904E4" and VALUE "Translation", 0x409, 1252 are for US english, if you would like something different refer to https://msdn.microsoft.com/library/aa381058
+These steps are for adding an icon to your program. First make a rc file showing where the icon is and the version info. Change "path/to/my.ico" to your icon. The BLOCK "040904E4" and VALUE "Translation", 0x409, 1252 are for US english, if you would like something different refer to https://msdn.microsoft.com/library/aa381058
 
 src/program.rc:
 
@@ -128,7 +128,7 @@ edit /wherever/release/share/gtk-3.0/settings.ini
     gtk-font-name = Segoe UI 10
     gtk-xft-rgba = rgb
 
-then download the windows 10 them from http://b00merang.weebly.com/windows-10.html.
+then download the windows 10 theme from http://b00merang.weebly.com/windows-10.html.
 
     unzip Windows-10-master.zip
     mv Windows-10-master /wherever/release/share/themes/Windows10
